@@ -1,0 +1,116 @@
+.wrapper{
+
+    align-self: center;
+    justify-self: center;
+    width: fit-content;
+    margin: 20px;
+}
+
+.gradient {
+    background: rgb(58,58,58);
+    background: -moz-linear-gradient(180deg, rgba(58,58,58,1) 0%, rgba(42,42,42,1) 30%);
+    background: -webkit-linear-gradient(180deg, rgba(58,58,58,1) 0%, rgba(42,42,42,1) 30%);
+    background: linear-gradient(180deg, rgba(58,58,58,1) 0%, rgba(42,42,42,1) 30%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a3a3a",endColorstr="#2a2a2a",GradientType=1);
+    width: inherit;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gradientlg {
+    background: rgb(58,58,58);
+    background: -moz-linear-gradient(180deg, rgba(58,58,58,1) 0%, rgba(42,42,42,1) 30%);
+    background: -webkit-linear-gradient(180deg, rgba(58,58,58,1) 0%, rgba(42,42,42,1) 30%);
+    background: linear-gradient(180deg, rgba(58,58,58,1) 0%, rgba(42,42,42,1) 30%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a3a3a",endColorstr="#2a2a2a",GradientType=1);
+    width: fit-content;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: white;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 750px) {
+.blocktext {
+    width: 80%;
+}
+.border {
+    width: 80%;
+}
+.wrapper {
+    width: inherit;
+}
+.gradient {
+    max-width: 80%;
+    width: 80%;
+}
+.gradientlg{
+    max-width: 80%;
+  }
+}
+
+
+body {
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    background: rgb(58,58,58);
+    background: -moz-linear-gradient(0deg, rgba(58,58,58,1) 0%, rgba(42,42,42,1) 30%);
+    background: -webkit-linear-gradient(0deg, rgba(58,58,58,1) 0%, rgba(42,42,42,1) 30%);
+    background: linear-gradient(0deg, rgba(58,58,58,1) 0%, rgba(42,42,42,1) 30%);
+    
+}
+
+.subdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+    padding: 0px 3px;
+}
+
+.blocktext {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 30px;
+}
+.border {
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    margin: 0px;
+    width: inherit;
+    margin-top: 10px;
+}
+
+.border:hover {
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration-color: #05ac02;
+    color: whitesmoke;
+}
+
+.logo {
+    width: inherit;
+}
